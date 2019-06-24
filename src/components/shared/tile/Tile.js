@@ -1,6 +1,6 @@
 import styled from '@emotion/native';
 
-const Tile = styled.View({
+export const style = {
     borderRadius: 8,
     shadowColor: '#000',
     shadowOffset: {
@@ -11,6 +11,8 @@ const Tile = styled.View({
     shadowRadius: 2.22,
     backgroundColor: '#fff',
     elevation: 3,
-});
+};
+
+const Tile = styled.View(style);
 
 export default Tile;
