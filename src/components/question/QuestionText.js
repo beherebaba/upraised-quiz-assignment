@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native';
+import PropTypes from 'prop-types';
 
 import styled from '@emotion/native';
 
@@ -15,6 +15,11 @@ const QuestionText = ({ question, style }) => {
             { question.text }
         </StyledText>
     );
+};
+
+QuestionText.propTypes = {
+    question: PropTypes.object.isRequired,
+    style: PropTypes.object,
 };
 
 export default QuestionText;
