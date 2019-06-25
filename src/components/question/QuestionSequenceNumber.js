@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, Text } from 'react-native';
 import styled from '@emotion/native';
 
 const Root = styled.View({

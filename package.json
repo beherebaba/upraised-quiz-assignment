@@ -1,7 +1,10 @@
 {
-  "name": "UpraisedQuiz",
+  "name": "upraised-quiz",
   "version": "0.0.1",
+  "description": "React Native based quiz app",
   "private": true,
+  "author": "Gautam Chaudhary <gautam@gkcgautam.io> (https://gkcgautam.io)",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
@@ -15,13 +18,22 @@
     "react": "16.8.3",
     "react-native": "0.59.9",
     "react-native-gesture-handler": "1.3.0",
-    "react-navigation": "3.11.0"
+    "react-native-svg": "9.5.1",
+    "react-native-svg-transformer": "0.13.0",
+    "react-navigation": "3.11.0",
+    "react-redux": "7.1.0",
+    "redux": "4.0.1",
+    "redux-actions": "2.6.5",
+    "redux-promise-middleware": "6.1.1",
+    "redux-thunk": "2.3.0",
+    "type-to-reducer": "1.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/runtime": "7.4.5",
     "babel-jest": "24.8.0",
     "jest": "24.8.0",
+    "metro-config": "0.54.1",
     "metro-react-native-babel-preset": "0.54.1",
     "react-test-renderer": "16.8.3"
   },
